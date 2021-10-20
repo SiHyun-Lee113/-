@@ -52,6 +52,8 @@ public class SearchActivity extends AppCompatActivity {
                 if (actionId == EditorInfo.IME_ACTION_DONE) {
                     searchOnYoutube (str);
                     return false;
+
+
                 }
                 return true;
             }
